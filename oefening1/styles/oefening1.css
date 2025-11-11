@@ -35,7 +35,7 @@ li:first-of-type p {
   /* JOUW CODE HIER */
   font-family: expletusSans;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.5em;
 }
 
 /* hiermee selecteer je de eerste letter van de p in het eerste blokje */
@@ -44,7 +44,6 @@ li:first-of-type p::first-letter {
   font-family: expletusSans;
   font-weight: bold;
   font-size: x-large;
-  line-height: 1.2;
 }
 
 /*******************************/
