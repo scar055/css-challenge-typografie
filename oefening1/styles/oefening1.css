@@ -5,42 +5,47 @@
 /* JOUW @FONT-FACE CODE HIER */
 @font-face {
   /* regular / 400 */
-
+  font-family: expletusSans;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/ExpletusSans-Regular.ttf);
 }
 
 @font-face {
   /* bold / 700 */
-
+  font-family: expletusSans;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/ExpletusSans-Bold.ttf);
 }
 
-
 li:first-of-type {
-  padding:1em;
-  overflow:auto;
+  padding: 1em;
+  overflow: auto;
 }
 
 li:first-of-type h2 {
   /* JOUW CODE HIER */
-  
-
+  font-family: expletusSans;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 li:first-of-type p {
   /* JOUW CODE HIER */
-  
-
+  font-family: expletusSans;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 /* hiermee selecteer je de eerste letter van de p in het eerste blokje */
 li:first-of-type p::first-letter {
   /* JOUW CODE HIER */
-
-  
+  font-family: expletusSans;
+  font-weight: bold;
+  font-size: x-large;
+  line-height: 1.2;
 }
-
-
-
-
 
 /*******************************/
 /* CODE VOOR HET TWEEDE BLOKJE */
