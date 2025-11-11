@@ -2,43 +2,49 @@
 /* CODE VOOR HET EERSTE BLOKJE */
 /*******************************/
 
-
-
-
-
 /*******************************/
 /* CODE VOOR HET TWEEDE BLOKJE */
 /*******************************/
+@font-face {
+  font-family: sairaBold;
+  src: url(../fonts/Saira-Bold.ttf);
+}
 
+li:nth-of-type(2) {
+  --background: rgb(25, 25, 106);
+  --color: white;
+  --shadow-1: cyan;
+  --shadow-2: magenta;
+  --shadow-3: yellow;
+  --shadow-4: black;
+  background-color: var(--background);
+  display: grid;
+  grid-auto-columns: min-content;
+  place-content: center;
+  text-align: center;
+}
 
-
-
+li:nth-of-type(2) h2 {
+  font-family: sairaBold;
+  font-size: 4em;
+  text-transform: uppercase;
+  color: var(--color);
+  text-shadow: var(--shadow-1) -3px -3px 0, var(--shadow-2) 1px -3px 0,
+    var(--shadow-3) 3px 3px 0, var(--shadow-4) -3px 3px 0;
+}
 
 /******************************/
 /* CODE VOOR HET DERDE BLOKJE */
 /******************************/
 
-
-
-
-
 /******************************/
 /* CODE VOOR HET VIERDE BLOKJE */
 /******************************/
-
-
-
-
 
 /******************************/
 /* CODE VOOR HET VIJFDE BLOKJE */
 /******************************/
 
-
-
-
-
 /******************************/
 /* CODE VOOR HET ZESDE BLOKJE */
 /******************************/
-
