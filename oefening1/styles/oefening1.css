@@ -53,39 +53,42 @@ li:first-of-type p::first-letter {
 
 /* JOUW @FONT-FACE CODE HIER */
 @font-face {
-  
+  font-family: montserrat;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Montserrat-Thin.ttf);
 }
-
 
 /* hiermee selecteer je het tweede blokje */
 li:nth-of-type(2) {
   /* custom properties voor tweede blokje */
-  --color:hsl(0 0% 100%);
-  --background:rgb(0 24 54);
-  --shadow:Cyan;
-  
+  --color: hsl(0 0% 100%);
+  --background: rgb(0 24 54);
+  --shadow: Cyan;
+
   /* met onderstaande regels staat de tekst in het midden */
   /* en elk woord op een nieuwe regel */
-  display:grid;
-  grid-auto-columns:min-content;  
-  place-content:center;
-  text-align:center;
-  
-  background-color:var(--background);
+  display: grid;
+  grid-auto-columns: min-content;
+  place-content: center;
+  text-align: center;
+
+  background-color: var(--background);
 }
 
 li:nth-of-type(2) h2 {
-  margin:0;
-  color:var(--color);
+  margin: 0;
+  color: var(--color);
 
   /* JOUW CODE HIER */
-
-  
+  font-family: montserrat;
+  font-size: 3em;
+  color: var(--color);
+  line-height: 1em;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-shadow: 0 0 1em var(--shadow), 0 0 0.2em var(--shadow);
 }
-
-
-
-
 
 /******************************/
 /* CODE VOOR HET DERDE BLOKJE */
@@ -93,22 +96,17 @@ li:nth-of-type(2) h2 {
 
 /* JOUW @FONT-FACE CODE HIER */
 @font-face {
-  
 }
 
 li:nth-of-type(3) {
   /* custom properties voor derde blokje */
-  --color:white;
-  --background:rgb(230 127 138);
-  --shadow:rgb(0 0 0 / .75);
+  --color: white;
+  --background: rgb(230 127 138);
+  --shadow: rgb(0 0 0 / 0.75);
 
   /* JOUW CODE HIER */
-  
-
 }
 
 li:nth-of-type(3) h2 {
   /* JOUW CODE HIER */
-
-  
 }
