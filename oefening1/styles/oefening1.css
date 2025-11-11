@@ -96,6 +96,9 @@ li:nth-of-type(2) h2 {
 
 /* JOUW @FONT-FACE CODE HIER */
 @font-face {
+  font-family: sairaCondensed;
+  font-weight: 700;
+  src: url(../fonts/Saira_Condensed-Bold.ttf);
 }
 
 li:nth-of-type(3) {
@@ -105,8 +108,22 @@ li:nth-of-type(3) {
   --shadow: rgb(0 0 0 / 0.75);
 
   /* JOUW CODE HIER */
+  background-color: var(--background);
+  display: grid;
+  grid-auto-columns: min-content;
+  place-content: center;
+  text-align: center;
 }
 
 li:nth-of-type(3) h2 {
   /* JOUW CODE HIER */
+  font-family: sairaCondensed;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: var(--color);
+  text-shadow: var(--shadow) 5px 2px 0px;
+  letter-spacing: 5px;
+  transform: skewY(-10deg);
 }
